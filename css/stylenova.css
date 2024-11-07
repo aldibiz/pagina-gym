@@ -1,0 +1,203 @@
+
+/*ESTILO HEADER*/
+
+header{
+    display: inline-block;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    background-color: #D1C4E9;
+    margin-top: auto;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+
+}
+
+.iconoCoraYPesa{
+    display: inline-flex;
+    width: 70px;
+    height: 70px;
+    margin-left: 10px;
+}
+
+.paginas{
+    display: flex;
+    padding: 10px;
+}
+
+.liPaginas{
+    padding-right: 10px;
+}
+
+
+/*ESTILO BODY*/
+
+.main{
+    display: flex;
+    flex-direction: row;
+    background-color: #FCE4EC;
+    min-width: 1440px;
+    width: 100%;
+    height: auto;
+    margin-top: auto;
+    display: inline-flex;
+}
+
+.mainInicio{
+    background-color: #FCE4EC;
+    min-width: 1440px;
+    width: 100%;
+    height: auto;
+    margin-top: auto;
+}
+
+.mainInfo{
+    background-color: #FCE4EC;
+    min-width: 1440px;
+    width: 100%;
+    height: auto;
+    margin-top: auto;
+    display: inline-flex;
+}
+
+.mainMusica{
+    background-color: #FCE4EC;
+    min-width: 1440px;
+    width: 100%;
+    height: auto;
+    margin-top: auto;
+    display: inline-flex;
+}
+
+.mainContacto{
+    display: block;
+}
+
+.linksMusica{
+    display: block; /* con esto queria poner los links de las musicas abajo del texto*/
+}
+
+.fotoInicio{
+    width: 30%;
+    height: 30%;
+    display: inline-flex;
+    margin: 40px;
+}
+
+/*esto no se que es bien, estaba probando*/
+/*.grid-container{ 
+    display: grid;
+    grid-template-columns: repeat(auto-fill,min-max(150px,1fr));
+    grid-gap: 30px;
+}*/
+
+.textoInicio{
+    font-size: 40px;
+    font-display: left;
+    display: block;
+    text-align: center;
+    justify-content: left;
+    padding:20px;
+}
+
+.textoInfo{
+    border: 10px solid black;
+    font-size: 40px;
+    font-display: center;
+    display: inline;
+    text-align: center;
+    margin:20px;
+}
+
+h2{ /*titulo galeria y contacto*/
+    font-size: 40px;
+    font-display: center;
+    justify-content: center;
+    display: block;
+    text-align: center;
+    margin: 20px;
+}
+
+.textoMusica {
+    font-size: 40px;
+    font-display: center;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    padding:20px;
+}
+
+.mapa{
+    margin:30px;
+    padding: 10px;
+}
+
+.formulario{
+    font-size: 40%;
+    color:black;
+    margin: 20px;
+}
+
+/*ESTILO GALERIA*/
+.mainGaleria{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.imgGaleria{
+    width: 250px;
+}
+
+.videoGaleria{
+    width: 250px;
+    
+}
+
+/*ESTILO FOOTER*/
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: auto;
+    width: 100%;
+    height: auto;
+    background-color: #D1C4E9;
+    padding: 20px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.footerLinks{
+    display: block;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+.footerlink ul li{
+    display: block;
+    font-size: 20px;
+}
+
+.footerLogo{
+    display: inline-flex;
+    width: 100px;
+    height: 100px;
+    margin-left: 10px;
+}
+
+.footerRedes{
+    display: inline-flex;
+    width: 70px;
+    height: 70px;
+    margin: 10px;
+    padding: 10px;
+}
+

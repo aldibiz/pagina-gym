@@ -1,0 +1,305 @@
+/*RESETEO DE ESTILOS*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+ul{
+    list-style: none;
+    text-align: center;
+    display: inline;
+    color:rgb(0, 0, 0);
+}
+
+a{
+    text-decoration: none;
+    font-style: none;
+    color:rgb(0, 0, 0);
+}
+
+/* ESTILO NAV */
+
+header{
+    /* display: flex; */
+    background-color: #D1C4E9;
+    width: 100%;
+}
+
+#navHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.iconoCoraYPesa{
+    display: flex;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+}
+
+.iconoCoraYPesa img {
+    width: 70px;
+    height: 70px;
+}
+
+/*#paginasAqui{
+    display: flex; 
+    justify-content:end;
+    align-items: center;
+}*/
+
+.paginas {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.liPaginas {
+    margin-left: 20px;
+}
+
+.liPaginas a {
+    text-decoration: none;
+    color: #333;
+}
+
+/*ESTILO FOOTER*/
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    background-color: #D1C4E9;
+}
+
+.footerLinks {
+    display: inline-block;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.footerLogo{
+    display: flex;
+    justify-content: left;
+    width: 100px;
+    height: 100px;
+    padding: 12px;
+}
+
+.footerRedes{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    padding: 12px;
+    gap: 10px;
+}
+
+/*PAGINA INICIO*/
+
+#mainInicio{
+    background-color: #FCE4EC;
+    width: 100%;
+    height: 600px;
+    display: flex;
+}
+
+.fotoInicio{
+    width: 250px;
+    height: 510px;
+    display: inline-flex;
+    margin: 40px;
+}
+
+.textoInicio{
+    display: inline-block;
+    text-align: center;
+    font-size: 40px;
+    padding:10px;
+    margin-left: 130px;
+}
+
+/*PAGINA INFO*/
+
+#mainInfo{
+    background-color: #FCE4EC;
+    width: 100%;
+    display: inline-flex;
+}
+
+.textoInfo{
+    border: 10px solid black;
+    padding: 5px;
+    font-size: 35px;
+    font-display: center;
+    display: inline;
+    text-align: center;
+    margin:20px;
+    margin-left: 40px;
+}
+
+.tituloMapa{
+    font-size: 40px;
+    text-align: center;
+}
+
+.mapa{
+    margin: 30px;
+    padding: 10px;
+}
+
+/*PAGINA PLAYLIST*/
+
+#mainMusica{
+    background-color: #FCE4EC;
+    width: 100%;
+}
+
+.playlistTitulo{ 
+    font-size: 40px;
+    font-display: center;
+    justify-content: center;
+    display: block;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.textoMusica{
+    font-size: 40px;
+    font-display: center;
+    display: block;
+    text-align: center;
+    justify-content: center;
+}
+
+.linksMusica{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 30px;
+}
+
+/*PAGINA CONTACTO*/
+.contactoTitulo{ 
+    font-size: 40px;
+    font-display: center;
+    justify-content: center;
+    display: block;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+#mainContacto{
+    background-color: #FCE4EC;
+    width: 100%;
+    height: 80vh;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Estos estilos eran del formulario anterior!*/
+
+/*.formulario{
+    margin: 10px;
+}*/ 
+
+/*.input{
+    margin: 5px;
+    border: 2px solid #d94de1;
+}*/
+
+#boton{
+    color: white;
+    background-color: rgb(175, 89, 145);
+    border: 2px solid #d94de1;
+    border-radius: 5px;
+    padding: 4px;
+    margin-left: 70px;
+    margin-bottom: 30px;
+}
+
+#boton:hover {
+    color: rgba(184, 43, 206, 0.902);
+    background-color: rgba(226, 209, 229, 0.902);
+    border: 2px solid #df07ea;
+    border-radius: 5px;
+    padding: 4px;
+}
+
+.mb-3{
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+/*PAGINA GALERIA*/
+
+.galeriaTitulo{ 
+    font-size: 40px;
+    font-display: center;
+    justify-content: center;
+    display: block;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.videosTitulo, .imagenesTitulo{ 
+    font-display: center;
+    justify-content: center;
+    display: block;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+}
+
+#mainGaleria{
+    background-color: #FCE4EC;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #FCE4EC;
+}
+
+/*.grid-container { 
+    display: grid;
+    align-items: center;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    grid-gap: 30px;
+    padding: 30px;
+}*/
+
+.imgGaleria{
+    width: 300px;
+    max-height: 300px;
+    object-fit: contain;
+}
+
+.videoGaleria{
+    width: 250px;
+    margin: 10px;
+}
+
+.videos{
+    display: flex;  
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.imagenes{
+    display: flex;  
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px;
+    margin-bottom: 40px;
+}
+
+
+
