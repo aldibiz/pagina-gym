@@ -1,0 +1,33 @@
+$color_fondo: #FCE4EC;
+
+/*PAGINA PLAYLIST*/
+
+#mainMusica{
+    background-color: $color_fondo;
+    width: 100%;
+    .playlistTitulo{ 
+        font-size: 40px;
+        font-display: center;
+        justify-content: center;
+        display: block;
+        text-align: center;
+        padding-top: 30px;
+    }
+    .textoMusica{
+        font-size: 40px;
+        font-display: center;
+        display: block;
+        text-align: center;
+        justify-content: center;
+    }
+    .linksMusica{
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-bottom: 30px;
+    }
+}
+
+
+
+
+

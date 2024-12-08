@@ -7,6 +7,8 @@
     <link rel="icon" href="../icons/coraypesa.png" type="image/x-icon"/>
     <!--ETIQUETA CSS BOOTSTRAP-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!--ETIQUETA CSS ANIMATE-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body id="body">
@@ -25,7 +27,9 @@
         </nav>
     </header>
     <main id="mainContacto">
-        <h2 class="contactoTitulo"><b>CONTACTO</b></h2> <br>
+        <div class="animate__animated animate__zoomIn">
+            <h2 class="contactoTitulo"><b>CONTACTO</b></h2> 
+        </div>
         <!-- ESTE ERA EL FORMULARIO ANTERIOR QUE HABIA HECHO
         <form class="formulario">
             <input class="input" type="text" placeholder="Nombre:"></input> <br>
@@ -34,7 +38,9 @@
             <textarea class="input" name = "" id="" cols="30" rows="10" placeholder="Mensaje:"></textarea> <br>
             <input id="boton" class="input" type="submit" value="ENVIAR"></input>
         -->
+
             <!--Formulario BOOTSTRAP-->
+        <form class=" animate__animated animate__zoomInDown">
             <div class="mb-3">
                 <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nombre:">
             </div>
@@ -48,8 +54,6 @@
                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Mensaje:"></textarea>
             </div>
             <input id="boton" class="input" type="submit" value="ENVIAR"></input>
-
-
         </form>
     </main>
 

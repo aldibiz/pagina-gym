@@ -1,0 +1,24 @@
+$letra: Arial, Helvetica, sans-serif;
+$color_letra:rgb(0, 0, 0);
+
+/*RESETEO DE ESTILOS*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $letra;
+    font-weight: 100;
+}
+
+ul{
+    list-style: none;
+    text-align: center;
+    display: inline;
+    color: $color_letra;
+}
+
+a{
+    text-decoration: none;
+    font-style: none;
+    color: $color_letra;
+}
