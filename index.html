@@ -7,6 +7,10 @@
     <link rel="icon" href="icons/coraypesa.png" type="image/x-icon"/>
     <!--ETIQUETA CSS BOOTSTRAP-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!--ETIQUETA CSS ANIMATE-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!--ETIQUETA CSS AOS-->
+    <link rel="stylesheet" href="../../assets/vendor/aos/dist/aos.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body id="body">
@@ -29,48 +33,60 @@
     <main id="mainInicio">
         <section>
             <div class="fotoInicio">
-                <img src="images/profe.jpeg" alt="foto Profe">
+                <img class="animate__animated animate__backInLeft" src="images/profe.jpeg" alt="foto Profe">
             </div>
             <div class="textoInicio">
+                <div class="animate__animated animate__backInRight">
                 <article> 
-                    <p> ¿Tenes ganas de entrenar? <br>
-                        ¡Veni a nuestras clases grupales, <br>
-                        no te queres afuera!</p>
+                    <p> ¿Tenes ganas de entrenar? </p>
+                    <p>¡Veni a nuestras clases grupales,</p>   
+                    <p>no te queres afuera!</p>   
                 </article>
                 <article>
-                    <p>Poder venir a participar de una <br>
-                        clase de prueba con un amigo.</p>
+                    <p>Poder venir a participar de una </p>
+                    <p>clase de prueba con un amigo.</p>
                 </article>
                 <article>
                     <p>¡Recorda que salud tambien es movimiento!</p>
                 </article>
                 <article>
-                    <p>¿ESTAS LISTO PARA DARLO TODO? <br>
-                        ¡NO HAY EXCUSAS!</p>
+                    <p>¿ESTAS LISTO PARA DARLO TODO?</p>
+                    <p>¡NO HAY EXCUSAS!</p>
                 </article>
+            </div>
             </div>
         </section>
     </main>
 
-    <footer id="footer">
-        <nav id="navFooter">
-            <div class="footerLogo">
+    <footer>
+        <div class="footerLogo">
             <img src="icons/mancuernas.png" alt="">
-            </div>
-            <ul class="footerLinks">
-                <li><a href="#">INICIO</a></li>
-                <li><a href="pages/info.html">INFO</a></li>
-                <li><a href="pages/galeria.html">GALERIA</a></li>
-                <li><a href="pages/playlist.html">PLAYLIST</a></li>
-                <li><a href="pages/galeria.html">CONTACTO</a></li>
-            </ul>
-            <div class="footerRedes">
+        </div>
+        <ul class="footerLinks">
+            <li><a href="#">INICIO</a></li>
+            <li><a href="pages/info.html">INFO</a></li>
+            <li><a href="pages/galeria.html">GALERIA</a></li>
+            <li><a href="pages/playlist.html">PLAYLIST</a></li>
+            <li><a href="pages/galeria.html">CONTACTO</a></li>
+        </ul>
+        <div class="footerRedes">
             <img src="icons/wa.png" alt="icono wa">
             <img src="icons/insta.png" alt="icono insta">
-            </div>
-        </nav>
+        </div>
     </footer>
+
     <!--ETIQUETA SCRIPT BOOTSTRAP-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        <!--ETIQUETA CSS AOS-->
+    <script src="../../assets/vendor/aos/dist/aos.js"></script>
+    <script>
+        $(document).on('ready', function () {
+          // initialization of aos
+            AOS.init({
+            duration: 650,
+            once: true
+            });
+        });
+    </script>
 </body>
 </html>

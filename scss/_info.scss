@@ -1,0 +1,32 @@
+$color_fondo: #FCE4EC;
+
+/*PAGINA INFO*/
+
+#mainInfo{
+    background-color: $color_fondo;
+    width: 100%;
+    display: inline-flex;
+    .textoInfo{
+        border: 10px solid black;
+        padding: 5px;
+        font-size: 35px;
+        font-display: center;
+        display: inline;
+        text-align: center;
+        margin:20px;
+        margin-left: 40px;
+    }
+    .tituloMapa{
+        font-size: 40px;
+        text-align: center;
+    }
+    .mapa{
+        margin: 30px;
+        padding: 10px;
+    }
+}
+
+
+
+
+
