@@ -63,6 +63,7 @@ header #navHeader .paginas .liPaginas .liPaginas a {
     justify-content:end;
     align-items: center;
 }*/
+
 /*ESTILO FOOTER*/
 footer {
   display: flex;
@@ -96,7 +97,7 @@ footer .footerRedes {
 #mainInicio {
   background-color: #FCE4EC;
   width: 100%;
-  height: 650px;
+  /*height: 650px;*/
   display: flex;
 }
 #mainInicio .fotoInicio {
@@ -113,16 +114,16 @@ footer .footerRedes {
   margin-left: 130px;
 }
 
-/*PAGINA INFO*/
-#mainInfo {
-  background-color: #FCE4EC;
-  width: 100%;
-  display: inline-flex;
-}
-#mainInfo .textoInfo {
-  border: 10px solid black;
-  padding: 5px;
-  font-size: 35px;
+  /*PAGINA INFO*/
+  #mainInfo {
+    background-color: #FCE4EC;
+    width: 100%;
+    display: inline-flex;
+  }
+  #mainInfo .textoInfo {
+    border: 10px solid black;
+    padding: 5px;
+    font-size: 35px;
   font-display: center;
   display: inline;
   text-align: center;
@@ -190,6 +191,7 @@ footer .footerRedes {
     grid-gap: 30px;
     padding: 30px;
 }*/
+
 /*PAGINA PLAYLIST*/
 #mainMusica {
   background-color: #FCE4EC;
@@ -266,3 +268,111 @@ footer .footerRedes {
 }*/
 
 /*# sourceMappingURL=style.css.map */
+
+/*------------------------------------------------------------------------------------------*/
+
+/*AQUI TRATE DE ADAPTAR LA PAGINA CON MEDIA QUERIES A PANTALLAS SMALL*/
+@media (max-width: 576px) { 
+
+  /* ESTILO NAV y ESTILO FOOTER: no funcionaron los cambios que quise aplicar*/
+
+  /*PAGINA INICIO*/
+  #mainInicio {
+    /*height: 650px;*/
+    display: flex;
+    flex-direction: column;
+  }
+  #mainInicio .fotoInicio {
+    width: 100px;
+    height: 150px;
+    display: inline-flex;
+    flex-direction: column;
+  }
+  #mainInicio .textoInicio {
+    display: inline;
+    text-align: center;
+    font-size: 10px;
+  margin: 5px;
+}
+
+  /*PAGINA INFO*/
+  #mainInfo {
+    background-color: #FCE4EC;
+    width: 100%;
+    display: inline-flex;
+    flex-direction: column;
+  }
+  #mainInfo .textoInfo {
+    border: 8px solid black;
+    padding: 3px;
+    font-size: 20px;
+    font-display: center;
+    display: inline;
+    text-align: center;
+    margin: 10px;
+    margin-left: 20px;
+  }
+  #mainInfo .tituloMapa {
+    font-size: 20px;
+    text-align: center;
+  }
+  #mainInfo .mapa {
+    margin: 30px;
+    padding: 10px;
+  }
+
+  /*PAGINA GALERIA*/
+  #mainGaleria .galeriaTitulo {
+    font-size: 20px;
+    font-display: center;
+    justify-content: center;
+    display: block;
+    text-align: center;
+    padding-top: 30px;
+  }
+  #mainGaleria .videosTitulo, #mainGaleria .imagenesTitulo {
+    font-size: 15px;
+  }
+
+  /*PAGINA PLAYLIST*/
+  #mainMusica .playlistTitulo {
+    font-size: 20px;
+  
+  }
+  #mainMusica .textoMusica {
+    font-size: 15px;
+  }
+  
+  /*PAGINA CONTACTO*/
+  #mainContacto .contactoTitulo {
+    font-size: 20px;
+  }
+  }
+
+  @media (max-width: 1200px) { 
+      /*PAGINA INFO*/
+  #mainInfo {
+    background-color: #FCE4EC;
+    width: 100%;
+    display: inline-flex;
+    flex-direction: column;
+  }
+  #mainInfo .textoInfo {
+    border: 8px solid black;
+    padding: 3px;
+    font-size: 20px;
+    font-display: center;
+    display: inline;
+    text-align: center;
+    margin: 10px;
+    margin-left: 20px;
+  }
+  #mainInfo .tituloMapa {
+    font-size: 20px;
+    text-align: center;
+  }
+  #mainInfo .mapa {
+    margin: 30px;
+    padding: 10px;
+  }
+  }
